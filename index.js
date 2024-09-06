@@ -1,6 +1,6 @@
 const express = require('express');
 
-const PORT = 5500;
+const PORT = 80;
 const app = express();
 
 app.get('/', (req, res) => {
